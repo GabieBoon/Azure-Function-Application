@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SkillsGardenApi</name>
+    </assembly>
+    <members>
+        <member name="M:SkillsGardenApi.Controllers.AuthController.Login(SkillsGardenDTO.LoginBody)">
+            <summary>
+            Get bearer token for API
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationGetEvents(Microsoft.AspNetCore.Http.HttpRequest,System.Int32)">
+            <summary>
+            Get all events for a specific location
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationCreateEvent(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Create a new event
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationGetEvent(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Int32)">
+            <summary>
+            Get a specific event for specific location
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationEditEvent(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Edit an existing Event
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationDeleteEvent(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Delete an existing event
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationCreateRegistration(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Register for an event
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.EventController.LocationDeleteRegistration(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Delete a registration
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.LocationController.LocationUpdate(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Update location
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.LocationController.LocationDelete(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Delete location
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutGetAll(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            Get all workouts
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutGet(Microsoft.AspNetCore.Http.HttpRequest,System.Int32)">
+            <summary>
+            Get one workout
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutCreate(Microsoft.AspNetCore.Http.HttpRequest,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Create workout
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutUpdate(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Update workout
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutDelete(Microsoft.AspNetCore.Http.HttpRequest,System.Int32,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Delete workout
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Controllers.WorkoutController.WorkoutGenerate(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            Generate workout
+            </summary>
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.CreateAsync(SkillsGardenApi.Models.Component)">
+            Create
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.DeleteAsync(System.Int32)">
+            Delete
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.ListAsync">
+            List
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.ReadAsync(System.Int32)">
+            Read
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.UpdateAsync(SkillsGardenApi.Models.Component)">
+            Update
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ComponentRepository.ComponentExists(System.Int32)">
+            Exists
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.EventRepository.CreateAsync(SkillsGardenApi.Models.Event)">
+            Create
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.EventRepository.DeleteAsync(System.Int32)">
+            Delete
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.EventRepository.ListAsync">
+            List
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.EventRepository.ReadAsync(System.Int32)">
+            Read
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.EventRepository.EventExists(System.Int32)">
+            Exists
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ExerciseRepository.CreateAsync(SkillsGardenApi.Models.Exercise)">
+            Create
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ExerciseRepository.ListAsync">
+            List
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ExerciseRepository.ReadAsync(System.Int32)">
+            Read
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ExerciseRepository.UpdateAsync(SkillsGardenApi.Models.Exercise)">
+            Update
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.ExerciseRepository.ExerciseExists(System.Int32)">
+            Exists
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.CreateAsync(SkillsGardenApi.Models.Location)">
+            Create
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.DeleteAsync(System.Int32)">
+            Delete
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.ListAsync">
+            List
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.ReadAsync(System.Int32)">
+            Read
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.UpdateAsync(SkillsGardenApi.Models.Location)">
+            Update
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.LocationRepository.LocationExists(System.Int32)">
+            Exists
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.CreateAsync(SkillsGardenApi.Models.Workout)">
+            Create
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.DeleteAsync(System.Int32)">
+            Delete
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.ListAsync">
+            List
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.ReadAsync(System.Int32)">
+            Read
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.UpdateAsync(SkillsGardenApi.Models.Workout)">
+            Update
+        </member>
+        <member name="M:SkillsGardenApi.Repositories.WorkoutRepository.WorkoutExists(System.Int32)">
+            Exists
+        </member>
+    </members>
+</doc>

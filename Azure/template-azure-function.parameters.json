@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appService_name": {
+      "value": "skillsgardenfunction"
+    },
+    "appServicePlan_name": {
+      "value": "skillsgardenplan"
+    },
+    "resourceGroup": {
+      "value": "skillsgarden"
+    },
+    "storageaccount_name": {
+      "value": "skillsgardenstorage"
+    },
+    "appServicePlan_skuName": {
+      "value": "Y1"
+    },
+    "appServicePlan_skuTier": {
+      "value": "Dynamic"
+    },
+    "appServicePlan_skuFamily": {
+      "value": "Y"
+    },
+    "appServicePlan_skuSize": {
+      "value": "Y1"
+    },
+    "appServicePlan_workerSizeId": {
+      "value": 0
+    },
+    "location": {
+      "value": "West Europe"
+    },
+    "StorageAccountType": {
+      "value": "Standard_LRS"
+    }
+  }
+}

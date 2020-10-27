@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SkillsGardenDTO</name>
+    </assembly>
+    <members>
+        <member name="T:SkillsGardenDTO.BeaconBody">
+            <summary>
+            The DTO for beacon
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.BeaconBody.Name">
+            <summary>
+            The name of the beacon
+            </summary>
+            <example>Klimrek beacon</example>
+        </member>
+        <member name="P:SkillsGardenDTO.BeaconBody.LocationId">
+            <summary>
+            The locationId of the Location where the beacon is
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:SkillsGardenDTO.BeaconBody.Lat">
+            <summary>
+            The latitude of the location of the beacon
+            </summary>
+            <example>40.2021</example>
+        </member>
+        <member name="P:SkillsGardenDTO.BeaconBody.Lng">
+            <summary>
+            The longitude of the location of the Skills Garden
+            </summary>
+            <example>2.1234</example>
+        </member>
+        <member name="T:SkillsGardenDTO.ComponentBody">
+            <summary>
+            The DTO for component
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.ComponentBody.Name">
+            <summary>
+            The name of the component
+            </summary>
+            <example>Stippeltrap</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ComponentBody.Description">
+            <summary>
+            The description of the component
+            </summary>
+            <example>Trap</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ComponentBody.Image">
+            <summary>
+            The image for the component
+            </summary>
+            <example>image</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ComponentBody.Exercises">
+            <summary>
+            The exercises for the component
+            </summary>
+            <example>array</example>
+        </member>
+        <member name="F:SkillsGardenDTO.Error.ErrorCode.OK">
+            200 Status Code
+        </member>
+        <member name="F:SkillsGardenDTO.Error.ErrorCode.INVALID_REQUEST_BODY">
+            400 Status Code
+        </member>
+        <member name="F:SkillsGardenDTO.Error.ErrorCode.UNAUTHORIZED_BEARER_TOKEN_MISSING">
+            401 Status Code
+        </member>
+        <member name="F:SkillsGardenDTO.Error.ErrorCode.USER_NOT_FOUND">
+            404 Status Code
+        </member>
+        <member name="T:SkillsGardenDTO.EventBody">
+            <summary>
+            The DTO of event
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.EventBody.Title">
+            <summary>
+            The title of the event
+            </summary>
+            <example>Bootcamp</example>
+        </member>
+        <member name="P:SkillsGardenDTO.EventBody.Description">
+            <summary>
+            The description of the event
+            </summary>
+            <example>Kom mee op bootcamp</example>
+        </member>
+        <member name="P:SkillsGardenDTO.EventBody.StartTime">
+            <summary>
+            The start time of the event
+            </summary>
+            <example>2020-01-01T20:00</example>
+        </member>
+        <member name="P:SkillsGardenDTO.EventBody.MaxRegistrations">
+            <summary>
+            The max amount of registrations for the event
+            </summary>
+            <example>20</example>
+        </member>
+        <member name="P:SkillsGardenDTO.EventBody.Image">
+            <summary>
+            The image for the event
+            </summary>
+            <example></example>
+        </member>
+        <member name="T:SkillsGardenDTO.ExerciseBody">
+            <summary>
+            The DTO for exercise
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.ExerciseBody.Name">
+            <summary>
+            The name of the exercise
+            </summary>
+            <example>Pete</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ExerciseBody.Requirements">
+            <summary>
+            The requirements of the exercise
+            </summary>
+            <example>array</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ExerciseBody.Steps">
+            <summary>
+            The setps of the exercise
+            </summary>
+            <example>array</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ExerciseBody.Forms">
+            <summary>
+            The movement forms of the exercise
+            </summary>
+            <example>array</example>
+        </member>
+        <member name="P:SkillsGardenDTO.ExerciseBody.Media">
+            <summary>
+            The media for the exercise
+            </summary>
+            <example>http://asmplatform.nl/video</example>
+        </member>
+        <member name="T:SkillsGardenDTO.MovementForm">
+            <summary>
+            The movement forms
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.klimmen">
+            <summary>
+            Klimmen
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.balans">
+            <summary>
+            Balans
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.mikken">
+            <summary>
+            Mikken
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.gooien">
+            <summary>
+            Gooien
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.springen">
+            <summary>
+            Springen
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.zwaaien">
+            <summary>
+            Zwaaien
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.rollen">
+            <summary>
+            Rollen
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.hardlopen">
+            <summary>
+            Hardlopen
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.overspelen">
+            <summary>
+            Overspelen
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.MovementForm.stoeien">
+            <summary>
+            Stoeien
+            </summary>
+        </member>
+        <member name="T:SkillsGardenDTO.LocationBody">
+            <summary>
+            The DTO for location
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.LocationBody.Name">
+            <summary>
+            The name of the location
+            </summary>
+            <example>Almere Haven</example>
+        </member>
+        <member name="P:SkillsGardenDTO.LocationBody.City">
+            <summary>
+            The city of the location
+            </summary>
+            <example>Almere</example>
+        </member>
+        <member name="P:SkillsGardenDTO.LocationBody.Lat">
+            <summary>
+            The latitude of the location of the Skills Garden
+            </summary>
+            <example>40.201</example>
+        </member>
+        <member name="P:SkillsGardenDTO.LocationBody.Lng">
+            <summary>
+            The longitude of the location of the Skills Garden
+            </summary>
+            <example>2.0</example>
+        </member>
+        <member name="P:SkillsGardenDTO.LocationBody.Image">
+            <summary>
+            The image of the Skills Garden
+            </summary>
+            <example>image</example>
+        </member>
+        <member name="T:SkillsGardenDTO.LoginBody">
+            <summary>
+            The DTO for supplying login information
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.LoginBody.Email">
+            <summary>
+            The email of the user
+            </summary>
+            <example>admin@admin.nl</example>
+        </member>
+        <member name="P:SkillsGardenDTO.LoginBody.Password">
+            <summary>
+            The password of the user
+            </summary>
+            <example>adminadmin</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Id">
+            <summary>
+            The id of the user
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Name">
+            <summary>
+            The name of the user
+            </summary>
+            <example>Pete</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Email">
+            <summary>
+            The email of the user
+            </summary>
+            <example>pete@mail.com</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Dateofbirth">
+            <summary>
+            The date of birth of the user
+            </summary>
+            <example>password</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Gender">
+            <summary>
+            The gender of the user
+            </summary>
+            <example>Male</example>
+        </member>
+        <member name="P:SkillsGardenDTO.Response.UserResponse.Type">
+            <summary>
+            The account type of the user
+            </summary>
+            <example>User</example>
+        </member>
+        <member name="T:SkillsGardenDTO.TokenBody">
+            <summary>
+            The DTO for the token
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.TokenBody.Token">
+            <summary>
+            The bearer token
+            </summary>
+            <example></example>
+        </member>
+        <member name="P:SkillsGardenDTO.TokenBody.User">
+            <summary>
+            The logged in user
+            </summary>
+            <example></example>
+        </member>
+        <member name="T:SkillsGardenDTO.UserBody">
+            <summary>
+            The DTO for user
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Name">
+            <summary>
+            The name of the user
+            </summary>
+            <example>Pete</example>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Email">
+            <summary>
+            The email of the user
+            </summary>
+            <example>pete@mail.com</example>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Password">
+            <summary>
+            The password of the user
+            </summary>
+            <example>Pete</example>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Dateofbirth">
+            <summary>
+            The date of birth of the user
+            </summary>
+            <example>password</example>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Gender">
+            <summary>
+            The gender of the user
+            </summary>
+            <example>Male</example>
+        </member>
+        <member name="P:SkillsGardenDTO.UserBody.Type">
+            <summary>
+            The account type of the user
+            </summary>
+            <example>User</example>
+        </member>
+        <member name="T:SkillsGardenDTO.UserGender">
+            <summary>
+            The gender of the user
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserGender.Male">
+            <summary>
+            Male
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserGender.Female">
+            <summary>
+            Female
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserGender.Other">
+            <summary>
+            Other
+            </summary>
+        </member>
+        <member name="T:SkillsGardenDTO.UserType">
+            <summary>
+            The account type of the user
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserType.User">
+            <summary>
+            User
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserType.Organiser">
+            <summary>
+            Organiser
+            </summary>
+        </member>
+        <member name="F:SkillsGardenDTO.UserType.Admin">
+            <summary>
+            Admin
+            </summary>
+        </member>
+        <member name="T:SkillsGardenDTO.WorkoutBody">
+            <summary>
+            The DTO for workout
+            </summary>
+        </member>
+        <member name="P:SkillsGardenDTO.WorkoutBody.Name">
+            <summary>
+            The name of the workout
+            </summary>
+            <example>Krachttraining</example>
+        </member>
+        <member name="P:SkillsGardenDTO.WorkoutBody.Type">
+            <summary>
+            The type of the workout
+            </summary>
+            <example>Balans</example>
+        </member>
+        <member name="P:SkillsGardenDTO.WorkoutBody.Exercises">
+            <summary>
+            The exercises for the workout
+            </summary>
+            <example>array</example>
+        </member>
+    </members>
+</doc>
